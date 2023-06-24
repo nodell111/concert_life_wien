@@ -1,46 +1,40 @@
 <!DOCTYPE html>
 <html lang="en"> 
-<head>
-    <meta charset="utf-8" />
-    <title>Vienna Concert Venues</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Bootstrap CSS v5.2.1 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans"
-      rel="stylesheet"
-    />
-    <link href="carousel.css" rel="stylesheet" />
-    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.js"></script>
-    <link
-      href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css"
-      rel="stylesheet"
-    />
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-      }
-      #map {
-        position: absolute; top:10%; left: 6%; width: 88vw; height: 100%;
-      }
-      .marker {
-        background-image: url('Location_dot_clear.svg');
-        background-size: cover;
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
-        cursor: pointer;
-      }
-      .mapboxgl-popup {
-        max-width: 200px;
-      }
-      .mapboxgl-popup-content {
-        text-align: center;
-        font-family: 'Open Sans', sans-serif;
-      }
-    </style>
+  <head>
+      <meta charset="utf-8" />
+      <title>Vienna Concert Venues</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <!-- Bootstrap CSS v5.2.1 -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
+      <link href="carousel.css" rel="stylesheet" />
+      <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.js"></script>
+      <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css" rel="stylesheet"/>
+      <style>
+        body {
+          margin: 0;
+          padding: 0;
+        }
+        #map {
+          position: absolute; top:10%; left: 6%; width: 88vw; height: 100%;
+        }
+        .marker {
+          background-image: url('Location_dot_clear.svg');
+          background-size: cover;
+          width: 15px;
+          height: 15px;
+          border-radius: 50%;
+          cursor: pointer;
+        }
+        .mapboxgl-popup {
+          max-width: 200px;
+        }
+        .mapboxgl-popup-content {
+          text-align: center;
+          font-family: 'Open Sans', sans-serif;
+        }
+      </style>
   </head>
   <body>
     <header>
