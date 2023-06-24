@@ -41,7 +41,7 @@
       <!-- Header -->
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">Munich Museum Accessiblity</a>
+            <a class="navbar-brand" href="#">Vienna Concert Venues</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -60,11 +60,9 @@
                     <li><a class="dropdown-item" href="Pinakothek der Moderne.html">Pinakothek der Moderne</a></li>
                     <li><a class="dropdown-item" href="Residenzmuseum.html">Residenzmuseum</a></li>
                     <li><a class="dropdown-item" href="Sammlung Schack.html">Sammlung Schack</a></li>
-
-
-          
+                  </ul>
+                </li>
               </ul>
-              
             </div>
           </div>
       </nav>
@@ -73,66 +71,66 @@
       <div class="container marketing">
       <div id="map"></div>
         <script> mapboxgl.accessToken = 'pk.eyJ1IjoibmF0YWxpZWVvZGVsbCIsImEiOiJjbGQ3cjFjcTIwaGtpM29wYnYxYmphNTI1In0.WYC-Uq7nEMtvbvt0MwbrIw';
-        const geojson = {
-          'type': 'FeatureCollection',
-          'features': [
-            {
-              'type': 'Feature',
-              'geometry': {
-                'type': 'Point',
-                'coordinates': [11.5683, 48.147]
+          const geojson = {
+            'type': 'FeatureCollection',
+            'features': [
+              {
+                'type': 'Feature',
+                'geometry': {
+                  'type': 'Point',
+                  'coordinates': [11.5683, 48.147]
+                },
+                'properties': {
+                  'title': 'State Museum of Egyptian Art',
+                  'description': 'Accesible museum.'
+                }
               },
-              'properties': {
-                'title': 'State Museum of Egyptian Art',
-                'description': 'Accesible museum.'
-              }
-            },
-            {
-              'type': 'Feature',
-              'geometry': {
-                'type': 'Point',
-                'coordinates': [11.5723, 48.1472]
+              {
+                'type': 'Feature',
+                'geometry': {
+                  'type': 'Point',
+                  'coordinates': [11.5723, 48.1472]
+                },
+                'properties': {
+                  'title': 'Pinakothek der Moderne',
+                  'description': 'Accesible museum.'
+                }
               },
-              'properties': {
-                'title': 'Pinakothek der Moderne',
-                'description': 'Accesible museum.'
-              }
-            },
-            {
-              'type': 'Feature',
-              'geometry': {
-                'type': 'Point',
-                'coordinates': [11.5785, 48.1406]
+              {
+                'type': 'Feature',
+                'geometry': {
+                  'type': 'Point',
+                  'coordinates': [11.5785, 48.1406]
+                },
+                'properties': {
+                  'title': 'Residenzmuseum',
+                  'description': 'Inaccesible museum.'
+                }
               },
-              'properties': {
-                'title': 'Residenzmuseum',
-                'description': 'Inaccesible museum.'
+              {
+                'type': 'Feature',
+                'geometry': {
+                  'type': 'Point',
+                  'coordinates': [11.5933, 48.1423]
+                },
+                'properties': {
+                  'title': 'Sammlung Schack',
+                  'description': 'Inaccesible museum.'
+                }
               }
-            },
-            {
-              'type': 'Feature',
-              'geometry': {
-                'type': 'Point',
-                'coordinates': [11.5933, 48.1423]
-              },
-              'properties': {
-                'title': 'Sammlung Schack',
-                'description': 'Inaccesible museum.'
-              }
-            }
-          ]
-        };
-        
+            ]
+          };
+          
 
-        const map = new mapboxgl.Map({
-          container: 'map',
-          style: 'mapbox://styles/natalieeodell/clbc4uhqm002914ph7g0he3s2',
-          center: [11.5820, 48.1351],
-          zoom: 12
-        });
+          const map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/natalieeodell/clj44ifmn008x01miflg85f82',
+            center: [16.36, 48.225],
+            zoom: 10.5
+          });
 
-        // add markers to map
-        for (const feature of geojson.features) {
+          // add markers to map
+          for (const feature of geojson.features) {
           // create a HTML element for each feature
           const el = document.createElement('div');
           el.className = 'marker';
@@ -150,6 +148,19 @@
             )
             .addTo(map);
         }
+       
+        //add Geojson Test - Inline geojson broke the map link somehow
+        //map.addSource('buildings', {
+        //  'type': 'geojson',
+        //  'data': {
+            //'type': 'Feature',
+            //'geometry': {
+            //  'type': 'Polygon',
+            //  // These coordinates outline Maine.
+            //  'coordinates': [
+            //    [
+        //}
+      //} 
         </script>
         <!-- Bootstrap JavaScript Libraries -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
