@@ -40,7 +40,27 @@
         <div id="map"></div>
         <div id="searchbox"></div> <!--- should this be part of map container?-->
         <script> mapboxgl.accessToken = 'pk.eyJ1IjoibmF0YWxpZWVvZGVsbCIsImEiOiJjbGQ3cjFjcTIwaGtpM29wYnYxYmphNTI1In0.WYC-Uq7nEMtvbvt0MwbrIw';
-          const geojson = {
+           
+          const map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/natalieeodell/clj44ifmn008x01miflg85f82',
+            center: [16.365, 48.212],
+            zoom: 13
+          }); 
+          map.on('style.load', function() {
+          map.addSource("concertvenues_polygon.geojson", {
+            "type": "geojson",
+            "data": mappingStructure
+          });
+
+          map.addLayer({
+            'id': 'concertvenues_polygon',
+            'type': 'fill',
+            'source': 'concertvenues_polygon.geojson',
+            'interactive': true
+          });
+});
+           /* const geojson = {
             'type': 'FeatureCollection',
             'features': [
               {
@@ -89,14 +109,8 @@
               }
             ]
           };
-          
+          */
 
-          const map = new mapboxgl.Map({
-            container: 'map',
-            style: 'mapbox://styles/natalieeodell/clj44ifmn008x01miflg85f82',
-            center: [16.365, 48.212],
-            zoom: 13
-          });
 
           // add Search Box (TESTING) <!--- not showing up - container layout problem?--->
           const search = new MapboxSearchBox();
@@ -136,7 +150,13 @@
             //    [
         //}
       //} 
+
+
+
         </script>
+
+
+
         <!-- Bootstrap JavaScript Libraries -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
