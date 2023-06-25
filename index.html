@@ -44,58 +44,12 @@
       <div class="content-container">
         <div id="map"></div>
       <script> mapboxgl.accessToken = 'pk.eyJ1IjoibmF0YWxpZWVvZGVsbCIsImEiOiJjbGQ3cjFjcTIwaGtpM29wYnYxYmphNTI1In0.WYC-Uq7nEMtvbvt0MwbrIw';
-        const geojson = {
-          'type': 'FeatureCollection',
-          'features': [
-            {
-              'type': 'Feature',
-              'geometry': {
-                'type': 'Point',
-                'coordinates': [11.5683, 48.147]
-              },
-              'properties': {
-                'title': 'State Museum of Egyptian Art',
-                'description': 'Accesible museum.'
-              }
-            },
-            {
-              'type': 'Feature',
-              'geometry': {
-                'type': 'Point',
-                'coordinates': [11.5723, 48.1472]
-              },
-              'properties': {
-                'title': 'Pinakothek der Moderne',
-                'description': 'Accesible museum.'
-              }
-            },
-            {
-              'type': 'Feature',
-              'geometry': {
-                'type': 'Point',
-                'coordinates': [11.5785, 48.1406]
-              },
-              'properties': {
-                'title': 'Residenzmuseum',
-                'description': 'Inaccesible museum.'
-              }
-            },
-            {
-              'type': 'Feature',
-              'geometry': {
-                'type': 'Point',
-                'coordinates': [11.5933, 48.1423]
-              },
-              'properties': {
-                'title': 'Sammlung Schack',
-                'description': 'Inaccesible museum.'
-              }
 
-          const map = new mapboxgl.Map({
-            container: 'map',
-            style: 'mapbox://styles/natalieeodell/clj44ifmn008x01miflg85f82',
-            center: [16.365, 48.207],
-            zoom: 13
+        const map = new mapboxgl.Map({
+          container: 'map',
+          style: 'mapbox://styles/natalieeodell/clj44ifmn008x01miflg85f82',
+          center: [16.365, 48.207],
+          zoom: 13
           });
 
         // add markers to map
