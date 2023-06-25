@@ -90,17 +90,13 @@
                 'title': 'Sammlung Schack',
                 'description': 'Inaccesible museum.'
               }
-            }
-          ]
-        };
-        
 
-        const map = new mapboxgl.Map({
-          container: 'map',
-          style: 'mapbox://styles/natalieeodell/clj44ifmn008x01miflg85f82',
-          center: [16.365, 48.207],
-          zoom: 12.5
-        });
+          const map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/natalieeodell/clj44ifmn008x01miflg85f82',
+            center: [16.365, 48.207],
+            zoom: 13
+          });
 
         // add markers to map
         for (const feature of geojson.features) {
