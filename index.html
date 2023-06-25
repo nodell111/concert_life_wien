@@ -37,7 +37,8 @@
     </header>
     <main>
       <div class="container marketing">
-      <div id="map"></div>
+        <div id="map"></div>
+        <div id="searchbox"></div> <!--- should this be part of map container?-->
         <script> mapboxgl.accessToken = 'pk.eyJ1IjoibmF0YWxpZWVvZGVsbCIsImEiOiJjbGQ3cjFjcTIwaGtpM29wYnYxYmphNTI1In0.WYC-Uq7nEMtvbvt0MwbrIw';
           const geojson = {
             'type': 'FeatureCollection',
@@ -96,6 +97,12 @@
             center: [16.365, 48.212],
             zoom: 12.5
           });
+
+          // add Search Box (TESTING) <!--- not showing up - container layout problem?--->
+          const search = new MapboxSearchBox();
+            container: 'searchbox'
+            search.accessToken = 'pk.eyJ1IjoibmF0YWxpZWVvZGVsbCIsImEiOiJjbGQ3cjFjcTIwaGtpM29wYnYxYmphNTI1In0.WYC-Uq7nEMtvbvt0MwbrIw';
+            map.addControl(search);
 
           // add markers to map
           for (const feature of geojson.features) {

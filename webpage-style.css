@@ -5,6 +5,11 @@ body {
 #map {
     position: absolute; top:10%; left: 6%; width: 88vw; height: 100%;
 }
+
+#searchbox {
+    position:absolute; width: 40%; height: 50%; border-color: rgb(113, 103, 103);
+}
+
 .marker {
     background-image: url('Location_dot_clear.svg');
     background-size: cover;
