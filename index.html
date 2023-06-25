@@ -4,6 +4,7 @@
       <meta charset="utf-8" />
       <title>Vienna Concert Venues</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="webpage-style.css">
       <!-- Bootstrap CSS v5.2.1 -->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -28,15 +29,6 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Museums</a>
-                  <ul class="dropdown-menu" aria-labelledby="opdown01">
-                    <li><a class="dropdown-item" href="State Museum of Egyptian Art.html">State Museum of Egyptian Art</a></li>
-                    <li><a class="dropdown-item" href="Pinakothek der Moderne.html">Pinakothek der Moderne</a></li>
-                    <li><a class="dropdown-item" href="Residenzmuseum.html">Residenzmuseum</a></li>
-                    <li><a class="dropdown-item" href="Sammlung Schack.html">Sammlung Schack</a></li>
-                  </ul>
                 </li>
               </ul>
             </div>
@@ -101,8 +93,8 @@
           const map = new mapboxgl.Map({
             container: 'map',
             style: 'mapbox://styles/natalieeodell/clj44ifmn008x01miflg85f82',
-            center: [16.36, 48.225],
-            zoom: 10.5
+            center: [16.365, 48.212],
+            zoom: 12.5
           });
 
           // add markers to map
