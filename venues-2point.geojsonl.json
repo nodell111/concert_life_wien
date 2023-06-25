@@ -1,0 +1,88 @@
+{ "type": "Feature", "properties": { "Venue": "Auersperg Palais" }, "geometry": { "type": "Point", "coordinates": [ 16.3549782, 48.2073811 ] } }
+{ "type": "Feature", "properties": { "Venue": "Lichtenstein Palais" }, "geometry": { "type": "Point", "coordinates": [ 16.3603572, 48.2224021 ] } }
+{ "type": "Feature", "properties": { "Venue": "See link https:\/\/www.austriasites.com\/vienna\/bezirk02_erstes_kaffeehaus.htm There was a fire and also a flood - if it still exists today, it has been remodeled. It was owned by Herr Benko." }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } }
+{ "type": "Feature", "properties": { "Venue": null }, "geometry": { "type": "Point", "coordinates": [ 16.4031566, 48.2134851 ] } }
+{ "type": "Feature", "properties": { "Venue": "Ferdinand v. Stockhammer Privathaus (Later it belonged to Herr. V. Hohenadel" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } }
+{ "type": "Feature", "properties": { "Venue": "House concert location" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } }
+{ "type": "Feature", "properties": { "Venue": "Schlosstheater Schönbrunn" }, "geometry": { "type": "Point", "coordinates": [ 16.3124299, 48.1859158 ] } }
+{ "type": "Feature", "properties": { "Venue": "Stadtgute" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } }
+{ "type": "Feature", "properties": { "Venue": "Streicher-Hof" }, "geometry": { "type": "Point", "coordinates": [ 16.3866916, 48.1995877 ] } }
+{ "type": "Feature", "properties": { "Venue": "Theater in der Josephstadt" }, "geometry": { "type": "Point", "coordinates": [ 16.350948, 48.2094972 ] } }
+{ "type": "Feature", "properties": { "Venue": "Theater in der Leopoldstadt" }, "geometry": { "type": "Point", "coordinates": [ 16.3836081, 48.2151197 ] } }
+{ "type": "Feature", "properties": { "Venue": "Theater zu Hietzing" }, "geometry": { "type": "Point", "coordinates": [ 16.2981438, 48.184795 ] } }
+{ "type": "Feature", "properties": { "Venue": "Universitätssaal" }, "geometry": { "type": "Point", "coordinates": [ 16.3775429, 48.208327 ] } }
+{ "type": "Feature", "properties": { "Venue": "Vinzenz Neuling" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } }
+{ "type": "Feature", "properties": { "Venue": "Wollzeile Nr. 827 - house concert" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } }
+{ "type": "Feature", "properties": { "Venue": "Zum Auge Gottes" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } }
+{ "type": "Feature", "properties": { "Venue": "Zum Römischen Kaiser" }, "geometry": { "type": "Point", "coordinates": [ 16.3661451, 48.212198 ] } }
+{ "type": "Feature", "properties": { "Venue": "Zur Mehlgrube" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } }
+{ "type": "Feature", "properties": { "Venue": "Wilhelminenberg Schloss" }, "geometry": { "type": "Point", "coordinates": [ 16.2855519, 48.2195625 ] } }
+{ "type": "Feature", "properties": { "Venue": "Schwarzenberg Palais" }, "geometry": { "type": "Point", "coordinates": [ 16.3774872, 48.1980369 ] } }
+{ "type": "Feature", "properties": { "Venue": "Grassalkowitiz Palais" }, "geometry": { "type": "Point", "coordinates": [ 16.3760477, 48.2218482 ] } }
+{ "type": "Feature", "properties": { "Venue": "Franz Nitschner's residence" }, "geometry": { "type": "Point", "coordinates": [ 16.3910573, 48.2019166 ] } }
+{ "type": "Feature", "properties": { "Venue": "Joseph Karl Rosenbaum's residence" }, "geometry": { "type": "Point", "coordinates": [ 16.3686627, 48.2118343 ] } }
+{ "type": "Feature", "properties": { "Venue": "Baron Gottfried van Swieten residence" }, "geometry": { "type": "Point", "coordinates": [ 16.3663342, 48.2125132 ] } }
+{ "type": "Feature", "properties": { "Venue": "Prince Lichnowsky residence 1" }, "geometry": { "type": "Point", "coordinates": [ 16.3652918, 48.2084166 ] } }
+{ "type": "Feature", "properties": { "Venue": "Prince Lichnowsky residence 2" }, "geometry": null }
+{ "type": "Feature", "properties": { "Venue": "Prince Rasumofaky's Palais" }, "geometry": { "type": "Point", "coordinates": [ 16.3922835, 48.2046 ] } }
+{ "type": "Feature", "properties": { "Venue": "Countess Josephine Deym von Stritetz's residence" }, "geometry": { "type": "Point", "coordinates": [ 16.3688683, 48.207986 ] } }
+{ "type": "Feature", "properties": { "Venue": "Burgtheater" }, "geometry": { "type": "Point", "coordinates": [ 16.3668509, 48.2079208 ] } }
+{ "type": "Feature", "properties": { "Venue": "Ignaz Jahn Hall" }, "geometry": { "type": "Point", "coordinates": [ 16.3722134, 48.2055116 ] } }
+{ "type": "Feature", "properties": { "Venue": "Winterpalais des Prinzen Eugen" }, "geometry": { "type": "Point", "coordinates": [ 16.3730857, 48.2054641 ] } }
+{ "type": "Feature", "properties": { "Venue": "Lamberg Palais" }, "geometry": { "type": "Point", "coordinates": [ 16.3671213, 48.2092268 ] } }
+{ "type": "Feature", "properties": { "Venue": "Esterházy Palais" }, "geometry": { "type": "Point", "coordinates": [ 16.3670503, 48.2096444 ] } }
+{ "type": "Feature", "properties": { "Venue": "Fünfkirchnersches Haus, former Palais Seitenn" }, "geometry": { "type": "Point", "coordinates": [ 16.3757712, 48.2091787 ] } }
+{ "type": "Feature", "properties": { "Venue": "Theater an Der Wien" }, "geometry": { "type": "Point", "coordinates": [ 16.3643118, 48.1994401 ] } }
+{ "type": "Feature", "properties": { "Venue": "Emmanuel Försters' residence" }, "geometry": { "type": "Point", "coordinates": [ 16.3739893, 48.2119059 ] } }
+{ "type": "Feature", "properties": { "Venue": "Kärntnertortheater" }, "geometry": { "type": "Point", "coordinates": [ 16.369749, 48.2040564 ] } }
+{ "type": "Feature", "properties": { "Venue": "Gottfried Ignaz v. Ployer residence" }, "geometry": { "type": "Point", "coordinates": [ 16.3553685, 48.2422742 ] } }
+{ "type": "Feature", "properties": { "Venue": "Apponyi family" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } }
+{ "type": "Feature", "properties": { "Venue": "Heniksteinvilla" }, "geometry": { "type": "Point", "coordinates": [ 16.3456376, 48.2417114 ] } }
+{ "type": "Feature", "properties": { "Venue": "Marianna Martinez Salon" }, "geometry": { "type": "Point", "coordinates": [ 16.375402, 48.2057642 ] } }
+{ "type": "Feature", "properties": { "Venue": "Maria Theresia von Paradis 1" }, "geometry": { "type": "Point", "coordinates": [ 16.3754177, 48.2118888 ] } }
+{ "type": "Feature", "properties": { "Venue": "Maria Theresia von Paradis 2" }, "geometry": { "type": "Point", "coordinates": [ 16.375568, 48.211533 ] } }
+{ "type": "Feature", "properties": { "Venue": "Maria Theresia von Paradis 3" }, "geometry": { "type": "Point", "coordinates": [ 16.3889934, 48.2036193 ] } }
+{ "type": "Feature", "properties": { "Venue": "Maria Theresia von Paradis 4" }, "geometry": { "type": "Point", "coordinates": [ 16.3758165, 48.2117475 ] } }
+{ "type": "Feature", "properties": { "Venue": "Maria Theresia von Paraidis 5" }, "geometry": { "type": "Point", "coordinates": [ 16.3761025, 48.2113267 ] } }
+{ "type": "Feature", "properties": { "Venue": "Maria Theresia von Paradis 6" }, "geometry": { "type": "Point", "coordinates": [ 16.3739427, 48.2066753 ] } }
+{ "type": "Feature", "properties": { "Venue": "Maria Theresia von Paradis 7" }, "geometry": { "type": "Point", "coordinates": [ 16.3668459, 48.2083302 ] } }
+{ "type": "Feature", "properties": { "Venue": "Maria Theresia von Paradis 8" }, "geometry": { "type": "Point", "coordinates": [ 16.3755677, 48.2115325 ] } }
+{ "type": "Feature", "properties": { "Venue": "Mortiz von Fries's residence (Pallavicinipalais)" }, "geometry": { "type": "Point", "coordinates": [ 16.3676945, 48.2066297 ] } }
+{ "type": "Feature", "properties": { "Venue": "Starhemberg Palais" }, "geometry": { "type": "Point", "coordinates": [ 16.3695016, 48.2074047 ] } }
+{ "type": "Feature", "properties": { "Venue": "Windischgrätz Palais" }, "geometry": { "type": "Point", "coordinates": [ 16.3676327, 48.2126628 ] } }
+{ "type": "Feature", "properties": { "Venue": "Mozart's Vienna Apartment" }, "geometry": { "type": "Point", "coordinates": [ 16.3749942, 48.2082783 ] } }
+{ "type": "Feature", "properties": { "Venue": "Peter von Braun's residence" }, "geometry": { "type": "Point", "coordinates": [ 16.367339, 48.2083573 ] } }
+{ "type": "Feature", "properties": { "Venue": "Nathan Adam von Arnstein's Residence" }, "geometry": { "type": "Point", "coordinates": [ 16.3685479, 48.2072879 ] } }
+{ "type": "Feature", "properties": { "Venue": "Joeseph Quarin's residence" }, "geometry": { "type": "Point", "coordinates": [ 16.367339, 48.2083573 ] } }
+{ "type": "Feature", "properties": { "Venue": "Wallenstein residence (espcially Mme Wallenstein" }, "geometry": { "type": "Point", "coordinates": [ 16.3648289, 48.2111241 ] } }
+{ "type": "Feature", "properties": { "Venue": "Thurn-Valsassina-Palais\n" }, "geometry": { "type": "Point", "coordinates": [ 16.3671362, 48.1883022 ] } }
+{ "type": "Feature", "properties": { "Venue": "Haus und Garten des Freyh. v. Puthon" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } }
+{ "type": "Feature", "properties": { "Venue": "Rittersburg residence\/ Palais Seitern" }, "geometry": { "type": "Point", "coordinates": [ 16.3757712, 48.2091787 ] } }
+{ "type": "Feature", "properties": { "Venue": "Zois Family Salon" }, "geometry": { "type": "Point", "coordinates": [ 16.3721884, 48.2080905 ] } }
+{ "type": "Feature", "properties": { "Venue": "Trattnerhof" }, "geometry": { "type": "Point", "coordinates": [ 16.3705052, 48.2087998 ] } }
+{ "type": "Feature", "properties": { "Venue": "Freihaustheater auf der Wieden" }, "geometry": { "type": "Point", "coordinates": [ 16.3669134, 48.1988959 ] } }
+{ "type": "Feature", "properties": { "Venue": "Schouppe Salon" }, "geometry": { "type": "Point", "coordinates": [ 16.3637771, 48.2124433 ] } }
+{ "type": "Feature", "properties": { "Venue": "Anton von Spielmann residence" }, "geometry": { "type": "Point", "coordinates": [ 16.3698297, 48.2084654 ] } }
+{ "type": "Feature", "properties": { "Venue": "Kinksy Palais" }, "geometry": { "type": "Point", "coordinates": [ 16.3632107, 48.2094368 ] } }
+{ "type": "Feature", "properties": { "Venue": "Thun Salon" }, "geometry": { "type": "Point", "coordinates": [ 16.3716292, 48.2037447 ] } }
+{ "type": "Feature", "properties": { "Venue": "Dimitry Golitzin" }, "geometry": { "type": "Point", "coordinates": [ 16.3557384, 48.2057951 ] } }
+{ "type": "Feature", "properties": { "Venue": "Trautson Palais" }, "geometry": { "type": "Point", "coordinates": [ 16.3836081, 48.2151197 ] } }
+{ "type": "Feature", "properties": { "Venue": "Carltheater\/ Theater in der Leopldstadt" }, "geometry": { "type": "Point", "coordinates": [ 16.3778392, 48.2077536 ] } }
+{ "type": "Feature", "properties": { "Venue": "Apollo-Saal" }, "geometry": null }
+{ "type": "Feature", "properties": { "Venue": "Paarpalais" }, "geometry": { "type": "Point", "coordinates": [ 16.3895449, 48.2032196 ] } }
+{ "type": "Feature", "properties": { "Venue": "NOT YET FINISHED" }, "geometry": { "type": "Point", "coordinates": [ 16.3637909, 48.2114481 ] } }
+{ "type": "Feature", "properties": { "Venue": "Zum Roten Hahn" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } }
+{ "type": "Feature", "properties": { "Venue": "Augarten" }, "geometry": { "type": "Point", "coordinates": [ 16.3794652, 48.2237027 ] } }
+{ "type": "Feature", "properties": { "Venue": "Blindeninstitut" }, "geometry": { "type": "Point", "coordinates": [ 16.3993913, 48.2067269 ] } }
+{ "type": "Feature", "properties": { "Venue": "Burgtheater" }, "geometry": { "type": "Point", "coordinates": [ 16.3613817, 48.2103235 ] } }
+{ "type": "Feature", "properties": { "Venue": "Conservatorium (MDW)" }, "geometry": { "type": "Point", "coordinates": [ 16.386045, 48.2020855 ] } }
+{ "type": "Feature", "properties": { "Venue": "Freyherr v. Wetzlarsches Haus" }, "geometry": { "type": "Point", "coordinates": [ 16.3622968, 48.2144364 ] } }
+{ "type": "Feature", "properties": { "Venue": "Großer Redoutensaal" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } }
+{ "type": "Feature", "properties": { "Venue": "Gundelhof" }, "geometry": { "type": "Point", "coordinates": [ 16.3718878, 48.2095138 ] } }
+{ "type": "Feature", "properties": { "Venue": "Kärntnerstraße Nr. 1101 (Josef Anton Bridi's home?) He is an opus 1 subscriber." }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } }
+{ "type": "Feature", "properties": { "Venue": "Kleiner Redoutensaal" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } }
+{ "type": "Feature", "properties": { "Venue": "Landständischer Saal" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } }
+{ "type": "Feature", "properties": { "Venue": "Mehlgrube" }, "geometry": null }
+{ "type": "Feature", "properties": { "Venue": "Minoritenplatz Nr. 50" }, "geometry": { "type": "Point", "coordinates": [ 16.3640379, 48.20995 ] } }
+{ "type": "Feature", "properties": { "Venue": "Müllerscher Saal" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } }
+{ "type": "Feature", "properties": { "Venue": "Musikverein" }, "geometry": { "type": "Point", "coordinates": [ 16.3724935, 48.2005642 ] } }
