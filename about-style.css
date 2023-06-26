@@ -1,5 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
+
 body {
     display: block;
+}
+
+/* Custom navbar style */
+.custom-navbar{
+    background-color: #557186; /* darker: #5c7283*/
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    color: inherit;
+}}
+
+/* Custom navbar link color */
+.custom-navbar .navbar-nav .nav-link {
+    color: white;
+}
+
+/* Custom navbar title color */
+.custom-navbar .navbar-brand.title-link {
+    color: white;
+    font-weight: 500;
 }
 
 .form-control {
@@ -7,7 +28,7 @@ body {
     height: 60%;
 }
 
-.main-container { 
+.content-container { 
     padding: 0.5 px;
     margin-right: auto;
     margin-left: auto;
@@ -16,19 +37,32 @@ body {
 }
 
 .description-project {
-    background: rgba(1, 1, 1, 0.838);
-    margin: 1rem;
+    background: #c1cebd;
+    margin: 1.5rem;
     padding: 1.5rem;
-    color: #fff;
+    color: #181818;
     border: 1px solid #fff;
     border-radius: 0.5rem;
+    font-size: 14px;
 }
 
-.description-class {
-    background: rgba(1, 1, 1, 0.838);
-    margin: 1rem;
+.description-team {
+    background: #c1cebd;
+    margin: 1.5rem;
     padding: 1.5rem;
-    color: #fff;
+    color: #181818;
     border: 1px solid #fff;
     border-radius: 0.5rem;
+    font-size: 14px;
 }
+
+.credit {
+    background: #c1cebd;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    color: #181818;
+    border: 1px solid #fff;
+    border-radius: 0.5rem;
+    font-size: 14px;
+}
+
