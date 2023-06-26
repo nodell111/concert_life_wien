@@ -56,7 +56,7 @@
           maxZoom: 18,
           minZoom: 13
         });
-      
+        map.addControl(new mapboxgl.NavigationControl());
         // Timeslider variables
         const years = [
           '1820',
@@ -152,6 +152,7 @@
             map.getCanvas().style.cursor = '';
           });
         });
+        
       
         // Timeslider logic
         const slider = document.getElementById('slider');
