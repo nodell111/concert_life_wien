@@ -24,10 +24,13 @@ main{
     border-radius: 50%;
     cursor: pointer;
 }
-.mapboxgl-popup {
-    max-width: 200px;
-}
+
 .mapboxgl-popup-content {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
+
+.mapboxgl-popup {
+    max-width: 400px;
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    }

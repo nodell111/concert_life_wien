@@ -1,116 +1,103 @@
 <!DOCTYPE html>
-<html lang="en"> 
-  <head>
-      <meta charset="utf-8" />
-      <title>Vienna Concert Venues</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="stylesheet" href="webpage-style.css">
-      <!-- Bootstrap CSS v5.2.1 -->
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
-      <link href="carousel.css" rel="stylesheet" /> <!--- deletable? -->
-      <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.js"></script>
-      <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css" rel="stylesheet"/>
-  </head>
-  <body>
-    <header>
-      <!-- Header -->
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Vienna Concert Venues</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-              <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
-                </li>
-              </ul>
-            </div>
-            <div class="d-flex align-items-center">
-              <form class="w-100 me-3" role="search">
-                <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-              </form>
-            </div>
-          </div>
-      </nav>
-    </header>
-    <main>
-      <div class="content-container">
-        <div id="map"></div>
-      <script> mapboxgl.accessToken = 'pk.eyJ1IjoibmF0YWxpZWVvZGVsbCIsImEiOiJjbGQ3cjFjcTIwaGtpM29wYnYxYmphNTI1In0.WYC-Uq7nEMtvbvt0MwbrIw';
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Vienna Concert Venues</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="webpage-style.css">
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
+  <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+  <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css" rel="stylesheet"/>
+</head>
+<body>
+  <header>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Vienna Concert Venues</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex align-items-center">
+          <form class="w-100 me-3" role="search">
+            <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="content-container">
+      <div id="map"></div>
+      <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoibmF0YWxpZWVvZGVsbCIsImEiOiJjbGQ3cjFjcTIwaGtpM29wYnYxYmphNTI1In0.WYC-Uq7nEMtvbvt0MwbrIw';
 
-            const map = new mapboxgl.Map({
-            container: 'map',
-            style: 'mapbox://styles/natalieeodell/clj44ifmn008x01miflg85f82',
-            center: [16.365, 48.205],
-            zoom: 12.5
-          }); 
-          map.on('style.load', () => {
-map.setFog({}); // Set the default atmosphere style
-});
- 
-map.on('load', () => {
-map.addSource('earthquakes', {
-type: 'geojson',
-data: 'https://nodell111.github.io/concert_life_wien/concert-points.geojson'
-});
- 
-map.addLayer({
-'id': 'earthquakes-layer',
-'type': 'circle',
-'source': 'earthquakes',
-'paint': {
-'circle-radius': 4,
-'circle-stroke-width': 2,
-'circle-color': 'red',
-'circle-stroke-color': 'white'
-}
-});
-           
+        const map = new mapboxgl.Map({
+          container: 'map',
+          style: 'mapbox://styles/natalieeodell/clj44ifmn008x01miflg85f82',
+          center: [16.365, 48.205],
+          zoom: 12.5
+        });
 
-       
-            
+        // Add the GeoJSON data as a source
+        map.on('load', () => {
+          map.addSource('venues', {
+            type: 'geojson',
+            data: 'https://nodell111.github.io/concert_life_wien/concert-points.geojson'
           });
 
+          // Add a layer for the markers
+          map.addLayer({
+            id: 'venues-layer',
+            type: 'circle',
+            source: 'venues',
+            paint: {
+              'circle-radius': 4,
+              'circle-stroke-width': 2,
+              'circle-color': 'red',
+              'circle-stroke-color': 'white'
+            }
+          });
 
+          // When a click event occurs on a feature in the places layer, open a popup at the
+          // location of the feature, with description HTML from its properties.
+          map.on('click', 'venues-layer', (e) => {
+            const coordinates = e.features[0].geometry.coordinates.slice();
+            const description = e.features[0].properties.Venue;
 
+            new mapboxgl.Popup()
+              .setLngLat(coordinates)
+              .setHTML(description)
+              .addTo(map);
+          });
 
-/*
-        // add markers to map
-        for (const feature of geojson.features) {
-        // create a HTML element for each feature
-        const el = document.createElement('div');
-        el.className = 'marker';
+          // Change the cursor to a pointer when the mouse is over the places layer.
+          map.on('mouseenter', 'venues-layer', () => {
+            map.getCanvas().style.cursor = 'pointer';
+          });
 
-        // make a marker for each feature and add it to the map
-        new mapboxgl.Marker(el)
-          .setLngLat(feature.geometry.coordinates)
-          .setPopup(
-            new mapboxgl.Popup({ offset: 15 }) // add popups
-            .setHTML(
-                `<h6>${feature.properties.description}</h6>` + 
-                '<h6><a href="' + feature.properties.title + '.html' + '">' 
-                  + 'Details' + '</a></h6>'
-              )
-          )
-          .addTo(map);
-          */
-
+          // Change it back to a pointer when it leaves.
+          map.on('mouseleave', 'venues-layer', () => {
+            map.getCanvas().style.cursor = '';
+          });
+        });
       </script>
-      <!-- Bootstrap JavaScript Libraries -->
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-      </script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-      </script>
-      </div>
-    </main>
-  </body>
+    </div>
+  </main>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+</body>
 </html>
