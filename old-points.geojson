@@ -3,6 +3,56 @@
     {
       "type": "Feature",
       "properties": {
+        "Venue_Spre": "36",
+        "Updates_fr": "",
+        "Modern_Add": "Bäckerstraße 8, 1010 Wien",
+        "Status_GIS": "Duplicate?",
+        "Exist_Stil": "Yes",
+        "Venue": "Fünfkirchnersches Haus, former Palais Seitenn",
+        "Notes_Addr": "Essiggasse, Stadt 764, (Bäckerstraße 8, 1010 Wien)",
+        "Address_17": "Obere Bäckerstraße, Innere Stadt 782",
+        "Address_18": "Obere Bäckerstraße, Innere Stadt 799",
+        "Notes_GIS": "",
+        "Address_19": "Obere Bäckerstraße, Innere Stadt 753",
+        "Notes_Venu": ""
+      },
+      "geometry": {
+        "coordinates": [
+          16.375771,
+          48.209178
+        ],
+        "type": "Point"
+      },
+      "id": "023d852d65cc893b1ed8ce5e3bc8a16b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Venue_Spre": "28",
+        "Updates_fr": "",
+        "Modern_Add": "Alser Strasse (house number to be determined), 1090",
+        "Status_GIS": "No Coordinates",
+        "Exist_Stil": "Address to be determined...",
+        "Venue": "Prince Lichnowsky residence 2",
+        "Notes_Addr": "from 1798 to 1803 (? - This is still to be confirmed... contradicting sources)",
+        "Address_17": "Alser Strasse, Alsergrund 45",
+        "Address_18": "Alser Strasse, Alsergrund 120",
+        "Notes_GIS": "",
+        "Address_19": "Alster Strasse, Alsergrund 147",
+        "Notes_Venu": ""
+      },
+      "geometry": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "076f4f3105768013fccd8c7f8608b6d1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Venue_Spre": "30",
         "Updates_fr": "",
         "Modern_Add": "Bräunerstraße 8 1010",
@@ -83,7 +133,7 @@
         "Modern_Add": "Rasumofskygasse 20, 1030 Wien",
         "Status_GIS": "",
         "Exist_Stil": "Yes",
-        "Venue": "Prince Rasumofsky's Palais",
+        "Venue": "Prince Rasumofaky's Palais",
         "Notes_Addr": "Rasumofskygasse, Landstraße 20-24 Wien",
         "Address_17": "Building is there but no house number",
         "Address_18": "Building is there but no house number",
@@ -99,6 +149,31 @@
         "type": "Point"
       },
       "id": "0f4a5307d2cae05e02164775548c26ba"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Venue_Spre": "82",
+        "Updates_fr": "",
+        "Modern_Add": "1., Hofburg, Josefsplatz 4",
+        "Status_GIS": "No Coordinates",
+        "Exist_Stil": "",
+        "Venue": "Großer Redoutensaal",
+        "Notes_Addr": "schlechte Akustik bei wenig Publikum, es gehen wohl 8000 Menschen hinein https://anno.onb.ac.at/cgi-content/anno-plus?aid=amz&datum=1818&page=254&size=45",
+        "Address_17": "Josefplatz, no house number",
+        "Address_18": "Josefplatz, no house number",
+        "Notes_GIS": "multiple Josefsplatz 1; pin Hofburg palace? The modern Großer Redoutensaal is not at center of Hofburg, closer to Josefsplatz 5",
+        "Address_19": "Josefplatz, no house number",
+        "Notes_Venu": ""
+      },
+      "geometry": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "100c5e9c21c3a1050f6e0f360a5df8f2"
     },
     {
       "type": "Feature",
@@ -133,7 +208,7 @@
         "Modern_Add": "",
         "Status_GIS": "To Confirm",
         "Exist_Stil": "No, it was a Praterhütter 4 (On the Hauptallee), but it does not exist anymore. It is something reconstructable from maps.",
-        "Venue": "Erstes Kaffeehaus",
+        "Venue": "",
         "Notes_Addr": "Saal des Herrn Benko Source: Lindmayr-Brandl Schubert database",
         "Address_17": "",
         "Address_18": "",
@@ -149,6 +224,31 @@
         "type": "Point"
       },
       "id": "15ecfe69faa2ec2e7444dfa89dc3bc8a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Venue_Spre": "7",
+        "Updates_fr": "",
+        "Modern_Add": "Kohlmarkt 7 1010",
+        "Status_GIS": "No Coordinates",
+        "Exist_Stil": "To be determined",
+        "Venue": "Ferdinand v. Stockhammer Privathaus (Later it belonged to Herr. V. Hohenadel",
+        "Notes_Addr": "z.B. Wohnung von Ferdinand v. Stockhammer auf dem Kohlmarkt (1819-05-25) Haus von Herr v. Hohenadel (1821-12-02) Source: Lindmayr-Brandl Schubert database",
+        "Address_17": "1179 am Kohlmart",
+        "Address_18": "1217 am Kohlmarkt",
+        "Notes_GIS": "",
+        "Address_19": "1149 am Kohlmarkt",
+        "Notes_Venu": ""
+      },
+      "geometry": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "1968380f2be2802f437f26bb54e1976a"
     },
     {
       "type": "Feature",
@@ -239,7 +339,7 @@
         "Address_18": "",
         "Notes_GIS": "",
         "Address_19": "Trauttmansdorffgasse, Hietzing 18",
-        "Notes_Venu": "the building was demolished in 1850."
+        "Notes_Venu": "he building was demolished in 1850."
       },
       "geometry": {
         "coordinates": [
@@ -403,6 +503,31 @@
     {
       "type": "Feature",
       "properties": {
+        "Venue_Spre": "18",
+        "Updates_fr": "Old Addresses Updated June 7/9/13",
+        "Modern_Add": "Milchgasse 1",
+        "Status_GIS": "No Coordinates",
+        "Exist_Stil": "",
+        "Venue": "Zum Auge Gottes",
+        "Notes_Addr": "Privatwohnung von Mad. Strahl Saal im 1. Stock Source: Lindmayr-Brandl Schubert database",
+        "Address_17": "Peterplatz 577",
+        "Address_18": "Petersplatz 603 1010",
+        "Notes_GIS": "",
+        "Address_19": "Petersplatz 8 1010",
+        "Notes_Venu": ""
+      },
+      "geometry": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "3490644cf828f446d945b3eacc179308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Venue_Spre": "71",
         "Updates_fr": "",
         "Modern_Add": "Museumstraße 7, 1070",
@@ -474,6 +599,31 @@
         "type": "Point"
       },
       "id": "38e35a17069db1b940a906076d459918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Venue_Spre": "84",
+        "Updates_fr": "",
+        "Modern_Add": "",
+        "Status_GIS": "No Coordinates",
+        "Exist_Stil": "",
+        "Venue": "Kärntnerstraße Nr. 1101 (Josef Anton Bridi's home?) He is an opus 1 subscriber.",
+        "Notes_Addr": "ev. 1011, oder 1191 Source: Lindmayr-Brandl Schubert database",
+        "Address_17": "",
+        "Address_18": "",
+        "Notes_GIS": "Can't find \"Kärntner Straße 1101, Vienna\"",
+        "Address_19": "Kärntnerstraße Nr. 1101",
+        "Notes_Venu": ""
+      },
+      "geometry": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "43690f695862f08dfd0bb24786c563a3"
     },
     {
       "type": "Feature",
@@ -578,6 +728,31 @@
     {
       "type": "Feature",
       "properties": {
+        "Venue_Spre": "87",
+        "Updates_fr": "Old Addresses Updated June 7/9/13",
+        "Modern_Add": "Neuermarkt 5 1010",
+        "Status_GIS": "No Coordinates",
+        "Exist_Stil": "",
+        "Venue": "Mehlgrube",
+        "Notes_Addr": "Saal des Hasuthauses Zur Mehlgrube Source: Lindmayr-Brandl Schubert database",
+        "Address_17": "",
+        "Address_18": "",
+        "Notes_GIS": "historisches Tanzlokal, \"Ahnenbälle\"?",
+        "Address_19": "",
+        "Notes_Venu": ""
+      },
+      "geometry": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "5672864adaf09beabbecb36b4661b70f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Venue_Spre": "26",
         "Updates_fr": "Old Addresses Updated June 7/9/13",
         "Modern_Add": "Renngasse, Innere Stadt 3",
@@ -608,7 +783,7 @@
         "Modern_Add": "Bäckerstraße 8 1010 Wien",
         "Status_GIS": "",
         "Exist_Stil": "Yes",
-        "Venue": "Rittersburg residence / Palais Seitern",
+        "Venue": "Rittersburg residence/ Palais Seitern",
         "Notes_Addr": "1 , Bäckerstrasse 8, Essiggasse 3",
         "Address_17": "Die Obere Bäckerstraße, Innere Stadt 788",
         "Address_18": "Die Obere Bäckerstraße, Innere Stadt 762",
@@ -624,6 +799,31 @@
         "type": "Point"
       },
       "id": "5d90e5a1b45bec191352d6c5df488b10"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Venue_Spre": "10",
+        "Updates_fr": "",
+        "Modern_Add": "Sechshauserstraße 3, 1150",
+        "Status_GIS": "No Coordinates",
+        "Exist_Stil": "Now a Spar",
+        "Venue": "Stadtgute",
+        "Notes_Addr": "außer der Gumpendorfer Linie Source: Lindmayr-Brandl Schubert database, https://bm15blog.wordpress.com/2019/05/06/erinnerungen-ans-raimund-kino/",
+        "Address_17": "",
+        "Address_18": "",
+        "Notes_GIS": "",
+        "Address_19": "Sechshaus Hauptstraße 5",
+        "Notes_Venu": "https://www.geschichtewiki.wien.gv.at/Stadtgut"
+      },
+      "geometry": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "5fef3a331c041c0d1c165606b46b572e"
     },
     {
       "type": "Feature",
@@ -658,7 +858,7 @@
         "Modern_Add": "Krugerstraße 10, 1010 Wien",
         "Status_GIS": "",
         "Exist_Stil": "No",
-        "Venue": "Dimitri Golitzyn",
+        "Venue": "Dimitry Golitzin",
         "Notes_Addr": "Krugerstraße 10, 1st district Wien",
         "Address_17": "Krugerstraße, Innere Stadt 1016",
         "Address_18": "Krugerstraße, Innere Stadt 1079",
@@ -708,7 +908,7 @@
         "Modern_Add": "Freyung 4, 1010 Wien",
         "Status_GIS": "",
         "Exist_Stil": "",
-        "Venue": "Kinsky Palais",
+        "Venue": "Kinksy Palais",
         "Notes_Addr": "",
         "Address_17": "Freyung 119 N",
         "Address_18": "Freyung N. 247",
@@ -728,12 +928,37 @@
     {
       "type": "Feature",
       "properties": {
+        "Venue_Spre": "8",
+        "Updates_fr": "",
+        "Modern_Add": "Salzgries 18 1010",
+        "Status_GIS": "No Coordinates",
+        "Exist_Stil": "To be determined",
+        "Venue": "House concert location",
+        "Notes_Addr": "Source: Lindmayr-Brandl Schubert database",
+        "Address_17": "Salzbries Nr. 344",
+        "Address_18": "Salzgries Nr. 192",
+        "Notes_GIS": "",
+        "Address_19": "Salzgries Nr. 182",
+        "Notes_Venu": ""
+      },
+      "geometry": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "78ebf89eabe833655af91e25207bc4a3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Venue_Spre": "58",
         "Updates_fr": "",
         "Modern_Add": "Kohlmarkt 11, 1010 Wien",
         "Status_GIS": "",
         "Exist_Stil": "Yes",
-        "Venue": "Joseph Quarin's residence",
+        "Venue": "Joeseph Quarin's residence",
         "Notes_Addr": "Stadt 1220 (Großes Michaelerhaus [Barnabiten-Zinshaus], 1, Kohlmarkt 11)",
         "Address_17": "Stadt 1220, Michaelerplatz, Innere Stadt 4",
         "Address_18": "Kohlmarkt, Innere Stadt 1220",
@@ -749,6 +974,31 @@
         "type": "Point"
       },
       "id": "7d798cdf70938e1d61af586c3e4fc2fc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Venue_Spre": "13",
+        "Updates_fr": "",
+        "Modern_Add": "Praterstraße 31, 1020",
+        "Status_GIS": "Duplicate?",
+        "Exist_Stil": "Not the original one.",
+        "Venue": "Theater in der Leopoldstadt",
+        "Notes_Addr": "Pächter: Leopold Huber Gründungskonzert am 1818-09-08 Source: Lindmayr-Brandl Schubert database",
+        "Address_17": "Die Jägerzeil, Leopoldstadt 320",
+        "Address_18": "",
+        "Notes_GIS": "",
+        "Address_19": "Praterstraße, Leopoldstadt 503",
+        "Notes_Venu": "The theatre was eventually demolished and rebuilt in 1847, under the name of the Carltheater."
+      },
+      "geometry": {
+        "coordinates": [
+          16.383608,
+          48.215119
+        ],
+        "type": "Point"
+      },
+      "id": "8060626c7a4d86783ac409fd5d7b8d6e"
     },
     {
       "type": "Feature",
@@ -783,7 +1033,7 @@
         "Modern_Add": "Rainergasse 22 1040 Wien",
         "Status_GIS": "",
         "Exist_Stil": "Yes",
-        "Venue": "Thurn-Valsassina-Palais",
+        "Venue": "Thurn-Valsassina-Palais\n",
         "Notes_Addr": "4, Rainergasse 22, Wiedner Hauptstraße 71; ursprünglich Hungelbrunn 4",
         "Address_17": "Hungelbrunn, Wieden 4",
         "Address_18": "Hungel Brunn, Wieden 4",
@@ -799,6 +1049,56 @@
         "type": "Point"
       },
       "id": "8a09894738ae2f8cb30a21f51af07e1a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Venue_Spre": "73",
+        "Updates_fr": "Old Addresses Updated June 7/9/13",
+        "Modern_Add": "Zieglergasse 15 1070",
+        "Status_GIS": "No Coordinates",
+        "Exist_Stil": "",
+        "Venue": "Apollo-Saal",
+        "Notes_Addr": "Besitzer: Hr. Höfelmayer. Source: Lindmayr-Brandl Schubert database.",
+        "Address_17": "House number 248, Street not yet named",
+        "Address_18": "Labeled on map!!! Zieglergasse 113",
+        "Notes_GIS": "",
+        "Address_19": "Zieglergasse 110",
+        "Notes_Venu": ""
+      },
+      "geometry": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "92c964d3768f01cc9615cf9d30999aa6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Venue_Spre": "61",
+        "Updates_fr": "",
+        "Modern_Add": "",
+        "Status_GIS": "No Coordinates",
+        "Exist_Stil": "No",
+        "Venue": "Haus und Garten des Freyh. v. Puthon",
+        "Notes_Addr": "Am Althan 1 und 2 https://www.geschichtewiki.wien.gv.at/index.php?title=Datei:Haus_und_Garten_des_Freyh._v._Puthon.jpg",
+        "Address_17": "Am Althan 1 & 2",
+        "Address_18": "",
+        "Notes_GIS": "",
+        "Address_19": "",
+        "Notes_Venu": "It is now a train station"
+      },
+      "geometry": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "934f5b3a9302b8dea16146a2e9d0c3ef"
     },
     {
       "type": "Feature",
@@ -849,6 +1149,31 @@
         "type": "Point"
       },
       "id": "a266085a8ba02509a536b2f1d82ef731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Venue_Spre": "41",
+        "Updates_fr": "",
+        "Modern_Add": "",
+        "Status_GIS": "No Coordinates",
+        "Exist_Stil": "",
+        "Venue": "Apponyi family",
+        "Notes_Addr": "The only residence I can find was built in 1880.... there must be an eariler one, but I have yet to locate it.",
+        "Address_17": "",
+        "Address_18": "",
+        "Notes_GIS": "",
+        "Address_19": "",
+        "Notes_Venu": ""
+      },
+      "geometry": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "a27e1be0baed19b1e04ff566f49b062e"
     },
     {
       "type": "Feature",
@@ -983,7 +1308,7 @@
         "Modern_Add": "Praterstraße 31, 1020",
         "Status_GIS": "",
         "Exist_Stil": "Different building now, but we have the dimensions",
-        "Venue": "Carltheater / Theater in der Leopoldstadt",
+        "Venue": "Carltheater/ Theater in der Leopldstadt",
         "Notes_Addr": "Leopoldstädter Theater (2., Praterstraße 31) - address as well as Dimensions are included in the Morrow, p. 85.",
         "Address_17": "Die Jägerzeil, Leopoldstadt 326",
         "Address_18": "Praterstraße, Leopoldstadt 436",
@@ -999,6 +1324,56 @@
         "type": "Point"
       },
       "id": "ad3dd899b08f39a286aad41fbc19aa50"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Venue_Spre": "75",
+        "Updates_fr": "",
+        "Modern_Add": "",
+        "Status_GIS": "",
+        "Exist_Stil": "",
+        "Venue": "NOT YET FINISHED",
+        "Notes_Addr": "",
+        "Address_17": "",
+        "Address_18": "",
+        "Notes_GIS": "",
+        "Address_19": "",
+        "Notes_Venu": ""
+      },
+      "geometry": {
+        "coordinates": [
+          16.36379,
+          48.211448
+        ],
+        "type": "Point"
+      },
+      "id": "ae4e975ac3fbae500f827ea3806a6c21"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Venue_Spre": "85",
+        "Updates_fr": "",
+        "Modern_Add": "1., Hofburg, Josefsplatz",
+        "Status_GIS": "No Coordinates",
+        "Exist_Stil": "",
+        "Venue": "Kleiner Redoutensaal",
+        "Notes_Addr": "",
+        "Address_17": "Josefplatz, no house number",
+        "Address_18": "Josefplatz, no house number",
+        "Notes_GIS": "multiple Josefsplatz 1; pin Hofburg palace? Google Earth pins Großer and Kleiner Redoutensaal at the same place?",
+        "Address_19": "Josefplatz, no house number",
+        "Notes_Venu": ""
+      },
+      "geometry": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "b30676f32825a6de6e8b4aa30b22f8ef"
     },
     {
       "type": "Feature",
@@ -1078,6 +1453,81 @@
     {
       "type": "Feature",
       "properties": {
+        "Venue_Spre": "17",
+        "Updates_fr": "Old Addresses Updated June 7/9/13",
+        "Modern_Add": "Wollzeile 36 1010",
+        "Status_GIS": "No Coordinates",
+        "Exist_Stil": "",
+        "Venue": "Wollzeile Nr. 827 - house concert",
+        "Notes_Addr": "Privatkonzert Bathioli Source: Lindmayr-Brandl Schubert database",
+        "Address_17": "Wollzeill 833",
+        "Address_18": "Wollzeill 838",
+        "Notes_GIS": "",
+        "Address_19": "Wollzeill 827",
+        "Notes_Venu": ""
+      },
+      "geometry": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "c6453b80d959098fcdeef73bd918e8aa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Venue_Spre": "86",
+        "Updates_fr": "",
+        "Modern_Add": "",
+        "Status_GIS": "No Coordinates",
+        "Exist_Stil": "",
+        "Venue": "Landständischer Saal",
+        "Notes_Addr": "Source: Lindmayr-Brandl Schubert database",
+        "Address_17": "",
+        "Address_18": "",
+        "Notes_GIS": "Couldn't find",
+        "Address_19": "Herrengasse 13",
+        "Notes_Venu": ""
+      },
+      "geometry": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "c94b99de4873fc32c993466e9aa92105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Venue_Spre": "5",
+        "Updates_fr": "",
+        "Modern_Add": "1., Lobkowitzplatz 2 1010",
+        "Status_GIS": "No Coordinates",
+        "Exist_Stil": "Yes",
+        "Venue": "See link https://www.austriasites.com/vienna/bezirk02_erstes_kaffeehaus.htm There was a fire and also a flood - if it still exists today, it has been remodeled. It was owned by Herr Benko.",
+        "Notes_Addr": "Today is a Theater Museum right next to it. Has a sign recognizing the Palais.",
+        "Address_17": "1132, Street not yet named",
+        "Address_18": "1164 Spiegelgasse",
+        "Notes_GIS": "appear to be in the same building / corner. Choose central coordinates (?)",
+        "Address_19": "1101 Spiegelgasse",
+        "Notes_Venu": ""
+      },
+      "geometry": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "caf6ee37bc92ff7d95ab3c54ea881a81"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Venue_Spre": "74",
         "Updates_fr": "",
         "Modern_Add": "Wollzeile 30/32 1010",
@@ -1108,13 +1558,13 @@
         "Modern_Add": "Herrengasse 16 1010 Wien",
         "Status_GIS": "",
         "Exist_Stil": "Yes",
-        "Venue": "Wallenstein residence",
+        "Venue": "Wallenstein residence (espcially Mme Wallenstein",
         "Notes_Addr": "Palais Harach 1, Freyung 3-3A, Herrengasse 16; Konskriptionsnummer 239",
         "Address_17": "Herrengasse, Innere Stadt 119",
         "Address_18": "Herrengasse, Innere Stadt 247",
         "Notes_GIS": "",
         "Address_19": "Herrengasse, Innere Stadt 239)",
-        "Notes_Venu": "especially Mme Wallenstein"
+        "Notes_Venu": ""
       },
       "geometry": {
         "coordinates": [
@@ -1158,7 +1608,7 @@
         "Modern_Add": "Döblinger Hauptstraße 83 1190",
         "Status_GIS": "",
         "Exist_Stil": "Yes",
-        "Venue": "Gottfried Ignaz von Ployer residence",
+        "Venue": "Gottfried Ignaz v. Ployer residence",
         "Notes_Addr": "",
         "Address_17": "Konskriptionsnummer 76",
         "Address_18": "Konskriptionsnummer 76",
@@ -1233,7 +1683,7 @@
         "Modern_Add": "Obere Augartenstraße 40, 1020 Wien",
         "Status_GIS": "",
         "Exist_Stil": "Yes",
-        "Venue": "Grassalkovich Palais",
+        "Venue": "Grassalkowitiz Palais",
         "Notes_Addr": "",
         "Address_17": "Augartgasse - House not numbered yet",
         "Address_18": "Augartgasse - House not numbered yet",
@@ -1333,7 +1783,7 @@
         "Modern_Add": "Anton-von-Webern-Platz 1, 1030 Wien",
         "Status_GIS": "",
         "Exist_Stil": "",
-        "Venue": "Konservatorium (MDW)",
+        "Venue": "Conservatorium (MDW)",
         "Notes_Addr": "der Musikfreunde Source: Lindmayr-Brandl Schubert database",
         "Address_17": "",
         "Address_18": "",
@@ -1349,6 +1799,31 @@
         "type": "Point"
       },
       "id": "de471422b4fc8593550646b1ca6d444d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Venue_Spre": "20",
+        "Updates_fr": "Old Addresses Updated June 7/9/13",
+        "Modern_Add": "Kärnterstraße 22 1010",
+        "Status_GIS": "No Coordinates",
+        "Exist_Stil": "",
+        "Venue": "Zur Mehlgrube",
+        "Notes_Addr": "Saal des Stadthauses Source: Lindmayr-Brandl Schubert database",
+        "Address_17": "Innere Stadt 995 Kärtnerstraße",
+        "Address_18": "Innere Stadt 1027 Kärrnterstraße",
+        "Notes_GIS": "",
+        "Address_19": "Innere Stadt 969 Kärnterstraße",
+        "Notes_Venu": ""
+      },
+      "geometry": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "de72ce2cd3fbf4395e212343243ed33c"
     },
     {
       "type": "Feature",
@@ -1383,7 +1858,7 @@
         "Modern_Add": "Judengasse 11",
         "Status_GIS": "",
         "Exist_Stil": "Yes",
-        "Venue": "Emanuel Försters' residence",
+        "Venue": "Emmanuel Försters' residence",
         "Notes_Addr": "1st, city 459; Judengasse 11 - This is his death address, but also likely where Beethoven participated in regular chamber gatherings",
         "Address_17": "No Street name yet, House number 470",
         "Address_18": "Judengasse, Innere Stadt 393",
@@ -1433,7 +1908,7 @@
         "Modern_Add": "Schottengasse 110, 1010",
         "Status_GIS": "",
         "Exist_Stil": "",
-        "Venue": "Freiherr von Wetzlarsches Haus",
+        "Venue": "Freyherr v. Wetzlarsches Haus",
         "Notes_Addr": "Schottengasse identisch mit Schottengasse 110?? Source: Lindmayr-Brandl Schubert database",
         "Address_17": "",
         "Address_18": "",
@@ -1503,6 +1978,56 @@
     {
       "type": "Feature",
       "properties": {
+        "Venue_Spre": "89",
+        "Updates_fr": "",
+        "Modern_Add": "",
+        "Status_GIS": "No Coordinates",
+        "Exist_Stil": "",
+        "Venue": "Müllerscher Saal",
+        "Notes_Addr": "Müllerscher Kunstsaal am roten Thurm (Rotenturmstr./Schwedenplatz) Source: Lindmayr-Brandl Schubert database",
+        "Address_17": "",
+        "Address_18": "",
+        "Notes_GIS": "",
+        "Address_19": "Baurenmarkt 4 1010",
+        "Notes_Venu": ""
+      },
+      "geometry": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "f03aa27e2ba23210f7f3059233e1159b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Venue_Spre": "79",
+        "Updates_fr": "",
+        "Modern_Add": "Uinversitätsring 2, 1010",
+        "Status_GIS": "",
+        "Exist_Stil": "",
+        "Venue": "Burgtheater",
+        "Notes_Addr": "Hoftheater nächst der Burg Source: Lindmayr-Brandl Schubert database. The current Burgtheater is in an entirely new location. The old location is now part of Michaelerplatz.",
+        "Address_17": "Michaelerplatz 1",
+        "Address_18": "Burgplatz 1",
+        "Notes_GIS": "",
+        "Address_19": "Burgplatz 1",
+        "Notes_Venu": ""
+      },
+      "geometry": {
+        "coordinates": [
+          16.361381,
+          48.210323
+        ],
+        "type": "Point"
+      },
+      "id": "f1542fb82f529d7c7b3d072e2cbef1a3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Venue_Spre": "90",
         "Updates_fr": "",
         "Modern_Add": "Musikvereinspl. 1, 1010 Wien",
@@ -1532,7 +2057,7 @@
         "Modern_Add": "Josefstädter Str. 26, 1080 Wien",
         "Status_GIS": "",
         "Exist_Stil": "Yes",
-        "Venue": "Theater in der Josefstadt",
+        "Venue": "Theater in der Josephstadt",
         "Notes_Addr": "Josefstädter Straße, Josefstadt 26 Source: Lindmayr-Brandl Schubert database",
         "Address_17": "Josefstadt Kaiser Gasse, Josefstadt 92",
         "Address_18": "Josefstadt 99 Kaiserstraße",
@@ -1557,7 +2082,7 @@
         "Modern_Add": "Fürstengasse 1, 1090",
         "Status_GIS": "",
         "Exist_Stil": "Yes",
-        "Venue": "Liechtenstein Palais",
+        "Venue": "Lichtenstein Palais",
         "Notes_Addr": "in der Rossau prachtvoll, majestätisches Lokal, Roßau, Alsergrund 1,",
         "Address_17": "Thury Brücke 84",
         "Address_18": "131 Lange Gasse 1090",
@@ -1602,6 +2127,31 @@
     {
       "type": "Feature",
       "properties": {
+        "Venue_Spre": "76",
+        "Updates_fr": "",
+        "Modern_Add": "Landstraßer Hauptstraße 40",
+        "Status_GIS": "No Coordinates",
+        "Exist_Stil": "",
+        "Venue": "Zum Roten Hahn",
+        "Notes_Addr": "",
+        "Address_17": "122 Landstraße Hauptstraße",
+        "Address_18": "Landstraße Hauptstraße 201",
+        "Notes_GIS": "",
+        "Address_19": "Landstraße, 269 Landstrasße Hauptstraße",
+        "Notes_Venu": ""
+      },
+      "geometry": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "f68bd5f8fe08a924703e5b5951d51699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Venue_Spre": "27",
         "Updates_fr": "",
         "Modern_Add": "Schauflergasse 6 1010",
@@ -1623,6 +2173,31 @@
         "type": "Point"
       },
       "id": "f8820c4eda650e8d941028409b668191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Venue_Spre": "16",
+        "Updates_fr": "Old Addresses Updated June 7/9/13",
+        "Modern_Add": "Ungargasse 52 1030",
+        "Status_GIS": "No Coordinates",
+        "Exist_Stil": "",
+        "Venue": "Vinzenz Neuling",
+        "Notes_Addr": "in dessen Wohnung Source: Lindmayr-Brandl Schubert database",
+        "Address_17": "Ungargasse 57",
+        "Address_18": "Ungargasse 353",
+        "Notes_GIS": "",
+        "Address_19": "Ungargasse 391",
+        "Notes_Venu": ""
+      },
+      "geometry": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "fe39da9b5c2c7d7afe01f8b7bcfa0ecc"
     }
   ],
   "type": "FeatureCollection"
