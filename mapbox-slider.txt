@@ -1,0 +1,30 @@
+/* Style the slider container */
+#slider .mapboxgl-slider-container {
+/* Your styles here */
+}
+
+/* Style the slider track */
+#slider .mapboxgl-slider-container .mapboxgl-slider .mapboxgl-slider-track {
+/* Your styles here */
+}
+
+/*
+/* Style the slider thumb */
+.mapboxgl-slider-container .mapboxgl-slider .mapboxgl-slider-thumb {
+/* Your styles here */
+}
+
+/* Style the slider ticks */
+.mapboxgl-slider-container .mapboxgl-slider .mapboxgl-slider-tick {
+/* Your styles here */
+}
+
+/* Style the slider active region */
+.mapboxgl-slider-container .mapboxgl-slider .mapboxgl-slider-active {
+/* Your styles here */
+}
+
+/* Style the slider background */
+.mapboxgl-slider-container .mapboxgl-slider .mapboxgl-slider-background {
+/* Your styles here */
+}

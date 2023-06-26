@@ -9,7 +9,7 @@
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
       <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
-      <link href="carousel.css" rel="stylesheet" /> <!--- deletable? -->
+      <!-- <link href="carousel.css" rel="stylesheet" /> deletable? -YES! -->
       <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.js"></script>
       <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css" rel="stylesheet"/>
   </head>
@@ -42,16 +42,39 @@
     </header>
     <main>
       <div class="content-container">
-        <div id="map"></div>
-      <script> mapboxgl.accessToken = 'pk.eyJ1IjoibmF0YWxpZWVvZGVsbCIsImEiOiJjbGQ3cjFjcTIwaGtpM29wYnYxYmphNTI1In0.WYC-Uq7nEMtvbvt0MwbrIw';
+      <div id="map"></div>
 
-            const map = new mapboxgl.Map({
+    <script> 
+      mapboxgl.accessToken = 'pk.eyJ1IjoibmF0YWxpZWVvZGVsbCIsImEiOiJjbGQ3cjFjcTIwaGtpM29wYnYxYmphNTI1In0.WYC-Uq7nEMtvbvt0MwbrIw';
+
+          const map = new mapboxgl.Map({
             container: 'map',
             style: 'mapbox://styles/natalieeodell/clj44ifmn008x01miflg85f82',
             center: [16.365, 48.207],
             zoom: 13
           }); 
+
+         
+          const years = [
+            '1820',
+            '1800',
+            '1810',
+            '1790',
+            '1830',
+          ];
+     
+
+          function filterBy(year) {
+          const filters = ['==', 'year', year];
+          map.setFilter('concert-venues', filters);
+         // if needing to filter additional layers, can just add this line above again
+          
+          // Set the label to the year
+          document.getElementById('year').textContent = years[year];
+          }
+          
           map.on('load', () => {
+           
           map.addSource('concert-venues', {
           'type': 'geojson',
           'data': {
@@ -2261,39 +2284,82 @@
 }
 }); 
 
-map.addLayer({
-'id': 'concert',
-'type': 'circle',
-'source': 'concert-venues',
-'paint': {
-'circle-radius': 3,
-'circle-color': '#B42222'
-},
-'filter': ['==', '$type', 'Point']
+
+          map.addLayer({
+          'id': 'concert',
+          'type': 'circle',
+          'source': 'concert-venues',
+          'paint': {
+          'circle-radius': 3,
+          'circle-color': '#B42222'
+          },
+          'filter': ['==', '$type', 'Point']
+          });
+          });
+          map.on('style.load', function() {
+          // Set the initial filter
+          filterBy(0);
+          });
+
+        
+          function filterBy(year) {
+          const filters = ['==', 'year', year];
+          map.setFilter('concert-venues', filters);
+
+          // Set the label to the year
+          document.getElementById('year').textContent = years[year];
+        }
+        
+
+/* 
+// GENERATE SLIDER OPTIONS (does not work with current data as their is no current option to filter by year)
+const slider = document.getElementById('slider');
+years.forEach((year, index) => {
+  const option = document.createElement('option');
+  option.value = index;
+  option.textContent = year;
+  slider.appendChild(option);
 });
+
+
+function filterBy(year) {
+const filters = ['==', 'year', year];
+map.setFilter('concert-venues', filters);
+
+// Set the label to the year
+document.getElementById('year').textContent = years[year];
+}
+
+// Event listener for slider input change
+document.getElementById('slider').addEventListener('input', function(event) {
+const selectedYear = parseInt(event.target.value);
+filterBy(selectedYear);
 });
+*/
+
 
 /*
-        // add markers to map
-        for (const feature of geojson.features) {
-        // create a HTML element for each feature
-        const el = document.createElement('div');
-        el.className = 'marker';
+// ADD MARKERS TO A MAP
+for (const feature of geojson.features) {
+// create a HTML element for each feature
+const el = document.createElement('div');
+el.className = 'marker';
 
-        // make a marker for each feature and add it to the map
-        new mapboxgl.Marker(el)
-          .setLngLat(feature.geometry.coordinates)
-          .setPopup(
-            new mapboxgl.Popup({ offset: 15 }) // add popups
-            .setHTML(
-                `<h6>${feature.properties.description}</h6>` + 
-                '<h6><a href="' + feature.properties.title + '.html' + '">' 
-                  + 'Details' + '</a></h6>'
-              )
-          )
-          .addTo(map);
-          */
-
+// make a marker for each feature and add it to the map
+new mapboxgl.Marker(el)
+.setLngLat(feature.geometry.coordinates)
+.setPopup(
+new mapboxgl.Popup({ offset: 15 }) // add popups
+.setHTML(
+`<h6>${feature.properties.description}</h6>` + 
+'<h6><a href="' + feature.properties.title + '.html' + '">' 
++ 'Details' + '</a></h6>'
+)
+)
+.addTo(map);
+});
+*/
+     
       </script>
       <!-- Bootstrap JavaScript Libraries -->
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -2302,7 +2368,12 @@ map.addLayer({
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
       integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
       </script>
-      </div>
+      
     </main>
+    <footer>
+      <!--<h4>Timeslider</h4>-->
+      <label id="year">Select a year</label>
+      <input id="slider" type="range" min="0" max="4" step="1" value="0">
+  </footer>
   </body>
 </html>
