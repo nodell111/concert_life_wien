@@ -24,7 +24,7 @@ body {
     border-radius: 0.5rem;
 }
 
-.description-class {
+.description-team {
     background: rgba(1, 1, 1, 0.838);
     margin: 1rem;
     padding: 1.5rem;
@@ -32,3 +32,13 @@ body {
     border: 1px solid #fff;
     border-radius: 0.5rem;
 }
+
+.credit {
+    margin: 1rem;
+    padding: 1.5rem;
+    color: #272424af;
+    border: 1px solid #fff;
+    border-radius: 0.5rem;
+}
+
+
