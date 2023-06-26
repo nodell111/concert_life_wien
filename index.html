@@ -77,6 +77,25 @@
           minZoom: 13
         });
 
+        // Timeslider variables
+        const years = [
+            '1820',
+            '1800',
+            '1810',
+            '1790',
+            '1830',
+          ];
+        map.on('style.load', function() {
+        // Set the initial filter
+        filterBy(0); // 0 = 1820
+        });
+        function filterBy(year) {
+          const filters = ['==', 'year', year];
+          map.setFilter('concert-venues', filters);
+          // Set the label to the year
+          document.getElementById('year').textContent = years[year];
+        }
+
         // Add the GeoJSON data as a source
         map.on('load', () => {
           map.addSource('venues', {
@@ -128,5 +147,11 @@
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+  
+  <footer>
+    <label id="year">Select a year</label>
+    <input id="slider" type="range" min="0" max="4" step="1" value="0">
+  </footer>
+
 </body>
 </html>
