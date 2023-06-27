@@ -10,7 +10,7 @@ body {
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
     color: inherit;
-}}
+}
 
 /* Custom navbar link color */
 .custom-navbar .navbar-nav .nav-link {
@@ -36,6 +36,14 @@ body {
     display: block;
 }
 
+
+.map-icons .icons {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
 .description-project {
     background: #c5d3c7;
     margin: 1.5rem;
@@ -45,6 +53,17 @@ body {
     border-radius: 0.5rem;
     font-size: 14px;
 }
+
+.map-icons {
+    background: #ebecdd;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    color: #181818;
+    border: 1px solid #fff;
+    border-radius: 0.5rem;
+    font-size: 14px;
+}
+
 
 .description-team {
     background: #c5d3c7;
